@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*header1 設定*/
+.header1{
+    background-color: #f6f6f6;
+    font-size:20px;
+    display:flex;
+    justify-content:flex-end;
+}
+.header1 a{
+    display:block;
+    text-decoration: none;
+    padding: 10px;
+}
+.header1 a:hover{
+    color:gray;
+}
+/*header2 設定*/
+.header2{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header2 .menu{
+    display:flex;
+}
+.menu li{
+    width: 100px;
+    text-align: center;
+}
+.menu li a{
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    color:#99ebd6;
+}
+.menu li a:hover,a.active{
+        background-color: cornflowerblue;
+        color: white;
+}
+/* png圖片設定*/
+.png{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+/* content 內容設定*/
+.content{
+    display: flex;
+    margin:0 auto;
+}
+.content div{
+    box-shadow: 5px 5px 3px gray;
+    padding: 20px;
+    width: 31.3333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.content img{
+    margin-bottom: 20px;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content p{
+    padding: 10px;
+    line-height: 1.5;
+}
+.content ul li{
+    padding: 5px;
+}
+/*course課程設定*/
+.course{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.course h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.lesson{
+    width: 1000px;
+    text-align: center;
+    font-size: 20px;
+}
+.lesson th{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding: 15px;
+}
+.lesson td{
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+.lesson span{
+    color:#22b28e;
+}
+/*faq設定*/
+.faq{
+    background-color: #006a4f;
+    width: 1000px;
+    margin: 0 auto;
+}
+.faq h3{
+    font-size:30px;
+    color:white;
+    text-align: center;
+    line-height: 1.2;
+    padding: 20px;
+}
+.wrap1{
+    display:flex;
+    justify-content: space-between;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    width: 500px;
+}
+.form1 label{
+    font-size:28px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+.form2{
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    margin: 0 20px 20px 0;
+
+}
+.form2 label{
+    font-size:24px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+.wrap1 input{
+    padding: 10px;
+}
+.btn{
+    width: 120px;
+    height: 70px;
+    margin-top:40px;
+    margin-left:280px;
+    cursor: pointer;
+}
+/*footer 設定*/
+.footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer p{
+    padding: 10px;
+}
+.top{
+    width: 50px;
+    height: 50px;
+    background-color:cornflowerblue;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right:0;
+}
+.top > a{
+    display: block;
+    font-size: 26px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.menu-list{
+     display: none;  
+}
